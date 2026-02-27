@@ -214,8 +214,10 @@ void loop() {
         }
     }
 
-    BLEScanResults* foundDevicesScan = pBLEScan->start(scanTime, false);
+    // Start BLE Scan and rely on the onResult callback for results
+    pBLEScan->start(scanTime, false);
     pBLEScan->clearResults();
+
     // Update the AirTag counter on the screen
     drawAirTagCounter(tft, airTagCount);
     delay(50);
