@@ -241,7 +241,7 @@ class MyAdvertisedDeviceCallbacks : public BLEAdvertisedDeviceCallbacks {
         logLine("\tRSSI: " + String(rssi) + " dBm", TFT_WHITE);
         logLine("Payload: " + payload, TFT_BLUE);
         logLine("", TFT_WHITE);   // blank separator
-        //logLine("", TFT_WHITE);   // blank separator
+        logLine("", TFT_WHITE);   // blank separator
     }
 };
 
