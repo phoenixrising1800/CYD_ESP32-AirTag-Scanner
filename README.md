@@ -1,5 +1,9 @@
 # CYD-ESP32-AirTag-Scanner
 
+## Forked from original project
+Wanted to take a stab at using this & writing optimizations (a.k.a other BLE tracker devices, rather than just Apple AirTag) for myself. Works okay but could use improvement, untested
+Really helpful: https://bitbucket.org/bluetooth-SIG/public/src/main/assigned_numbers/company_identifiers/company_identifiers.yaml
+
 ## Overview
 This project allows for full Cheap Yellow Display (CYD) scanning AirTag MAC addresses and payloads without the need for an Android device or the nrfConnect app. ChatGPT wrote this: "This project is an advanced Bluetooth Low Energy (BLE) tracker detection system that runs on an ESP32, capable of identifying and logging the presence of Apple AirTags, Samsung SmartTags, and Tile Trackers. The system uses the ESP32’s BLE capabilities to scan for specific advertising patterns unique to these devices and displays the information on a connected TFT display." HAXXX
 
